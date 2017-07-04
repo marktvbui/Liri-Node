@@ -41,15 +41,17 @@ function omdbAPI() {
 }
 function myTwitter() {
   // this function will grab and show your last 20 tweets and when they were created
+  //https://api.twitter.com/1.1/users/search.json?q=markbui
   if (functionRequest === 'my-tweets') {
 
   }
 }
 function mySpotify() {
   // function will show artist, songs name, preview link of the song from spotify, album the song is from. if no song is provided, then will default to show 'the sign' by ace of base
-  // https://api.spotify.com /v1/search?type=track
+  // https://api.spotify.com /v1/search?q=' + songName + '&type=track';
   if (functionRequest === 'spotify-this-song') {
     var songName = process.argv.slice(3).join('+');
+    var spotifyURL = 'https://api.spotify.com /v1/search?q=' + songName + '&type=track';
   }
 }
 // else if (functionRequest === 'spotify-this-song') {
