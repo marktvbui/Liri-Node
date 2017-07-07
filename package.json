@@ -1,0 +1,25 @@
+{
+  "name": "Liri-Node",
+  "version": "1.0.0",
+  "description": "Siri like app, that takes in inputs",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marktvbui/Liri-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marktvbui/Liri-Node/issues"
+  },
+  "homepage": "https://github.com/marktvbui/Liri-Node#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {}
+}

@@ -30,7 +30,7 @@ function omdbAPI() {
         console.log('Language: ' + json.Language);
         console.log('Movie Plot: ' + json.Plot);
         console.log('Actors: ' + json.Actors);
-        fs.appendFile('log.txt', ', ' + json.Title, function(error) {
+        fs.appendFile('log.txt', 'Movie Title: ' + json.Title + ', ', function(error) {
           if (error) {
             return console.log(error);
           }
@@ -66,7 +66,16 @@ function mySpotify() {
 //     }
 //   })
 // }
-omdbAPI(functionRequest);
-myTwitter(functionRequest);
-mySpotify(functionRequest);
+if (functionRequest === 'movie-this') {
+  omdbAPI();
+}
+else if (functionRequest === 'my-tweets'){
+  myTwitter();
+}
+else if (functionRequest === 'mySpotify'){
+  mySpotify();
+}
+// omdbAPI(functionRequest);
+// myTwitter(functionRequest);
+// mySpotify(functionRequest);
 
