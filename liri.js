@@ -8,14 +8,16 @@ function omdbAPI() {
   request(queryUrl, function(error, response, body) {
     if (!error && response.statusCode === 200) {
       var json = JSON.parse(body);
-      console.log('Movie title: ' + json.Title);
-      console.log('Movie release year: ' + json.Year);
-      console.log('IMDB rating: ' + json.imdbRating);
-      console.log('Movied Produced in: ' + json.Production);
-      console.log('Language: ' + json.Language);
-      console.log('Movie Plot: ' + json.Plot);
-      console.log('Actors: ' + json.Actors);
-      fs.appendFile('log.txt', 'Movie Title: ' + json.Title + ', ', function(error) {
+      var title = ('Movie title: ' + json.Title);
+      var year = ('Movie release year: ' + json.Year);
+      var rating= ('IMDB rating: ' + json.imdbRating);
+      var location = ('Movied Produced in: ' + json.Production);
+      var language = ('Language: ' + json.Language);
+      var plot = ('Movie Plot: ' + json.Plot);
+      var actors = ('Actors: ' + json.Actors);
+      var movieLog = (title + '\n' + year + '\n' + rating + '\n' + location + '\n' + language + '\n' + plot + '\n' + actors + '\n');
+      console.log(movieLog);
+      fs.appendFile('log.txt', movieLog , function(error) {
         if (error) {
           return console.log(error);
         }
@@ -38,10 +40,19 @@ function myTwitter() {
     access_token_key: keyList.access_token_key,
     access_token_secret: keyList.access_token_secret
   });
-  console.log(client);
-  var params = {screen_name: 'CoderMark7'};
-  var twitterURL = 'https://api.twitter.com/1.1/users/search.json?q=' + params;
-  // request.post(twitterURL)
+  var params = {screen_name: 'CoderMark7', count: 20};
+  client.get('statuses/user_timeline', params , function(error, tweets, response){
+    if (error) throw error;
+    for (var i = 0; i < tweets.length; i++){
+      var MyTweets = (tweets[i].created_at + ' '+ tweets[i].text + '\n');
+      console.log(MyTweets);
+      fs.appendFile('log.txt', MyTweets, function(err) {
+        if (err) {
+          return console.log(error);
+        }
+      })
+    }
+  });
 }
 
 function mySpotify() {

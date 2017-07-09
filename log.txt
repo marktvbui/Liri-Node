@@ -1,1 +1,54 @@
-Movie Title: Mulan, Movie Title: Mulan 2, 
+Sun Jul 09 04:17:44 +0000 2017 i think this is 20!
+Sun Jul 09 04:17:18 +0000 2017 i love greek mythology!
+Sun Jul 09 04:17:10 +0000 2017 kids watching hercules
+Sun Jul 09 04:16:53 +0000 2017 lost count of what number this is
+Sun Jul 09 04:16:41 +0000 2017 why oh why do i need 20?
+Sun Jul 09 04:16:33 +0000 2017 tweet 15
+Sun Jul 09 04:16:28 +0000 2017 tweet 14
+Sun Jul 09 04:16:23 +0000 2017 tweet 13
+Sun Jul 09 04:16:17 +0000 2017 some questions were harder than they appear
+Sun Jul 09 04:16:05 +0000 2017 whiteboard today
+Mon Jul 03 06:25:44 +0000 2017 #crackingthecodinginterview looked inside this book, this stuff is tough!
+Mon Jul 03 06:25:15 +0000 2017 i love javascript!
+Mon Jul 03 06:24:21 +0000 2017 i dont get why twitter is so special?
+Mon Jul 03 06:23:33 +0000 2017 how do people survive in the desert?
+Mon Jul 03 06:23:13 +0000 2017 my head is hurting from the heat today...need to find places to cool down
+Mon Jul 03 06:22:53 +0000 2017 how do people live in Fresno? its like 80 degrees at 11pm
+Mon Jul 03 06:22:34 +0000 2017 i think i need 20 tweets for homework, so going to continue talking to myself
+Mon Jul 03 06:22:05 +0000 2017 what do people do on twitter?
+Mon Jul 03 06:21:29 +0000 2017 coding into the middle of the night #coderlife
+Mon Jul 03 06:21:02 +0000 2017 my first tweet!
+Movie title: Mulan
+Movie release year: 1998
+IMDB rating: 7.6
+Movied Produced in: Buena Vista
+Language: English, Mandarin
+Movie Plot: To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.
+Actors: Miguel Ferrer, Harvey Fierstein, Freda Foh Shen, June Foray
+Movie title: Mulan 2
+Movie release year: 2004
+IMDB rating: 5.7
+Movied Produced in: Walt Disney Productions
+Language: English
+Movie Plot: While preparing for their wedding, Shang and Mulan are suddenly sent off on a secret mission. Mushu starts to meddle, and a surprise attack by Mongolians doesn't help either.
+Actors: Ming-Na Wen, BD Wong, Mark Moseley, Lucy Liu
+Sun Jul 09 04:17:44 +0000 2017 i think this is 20!
+Sun Jul 09 04:17:18 +0000 2017 i love greek mythology!
+Sun Jul 09 04:17:10 +0000 2017 kids watching hercules
+Sun Jul 09 04:16:53 +0000 2017 lost count of what number this is
+Sun Jul 09 04:16:41 +0000 2017 why oh why do i need 20?
+Sun Jul 09 04:16:33 +0000 2017 tweet 15
+Sun Jul 09 04:16:28 +0000 2017 tweet 14
+Sun Jul 09 04:16:23 +0000 2017 tweet 13
+Sun Jul 09 04:16:17 +0000 2017 some questions were harder than they appear
+Sun Jul 09 04:16:05 +0000 2017 whiteboard today
+Mon Jul 03 06:25:44 +0000 2017 #crackingthecodinginterview looked inside this book, this stuff is tough!
+Mon Jul 03 06:25:15 +0000 2017 i love javascript!
+Mon Jul 03 06:24:21 +0000 2017 i dont get why twitter is so special?
+Mon Jul 03 06:23:33 +0000 2017 how do people survive in the desert?
+Mon Jul 03 06:23:13 +0000 2017 my head is hurting from the heat today...need to find places to cool down
+Mon Jul 03 06:22:53 +0000 2017 how do people live in Fresno? its like 80 degrees at 11pm
+Mon Jul 03 06:22:34 +0000 2017 i think i need 20 tweets for homework, so going to continue talking to myself
+Mon Jul 03 06:22:05 +0000 2017 what do people do on twitter?
+Mon Jul 03 06:21:29 +0000 2017 coding into the middle of the night #coderlife
+Mon Jul 03 06:21:02 +0000 2017 my first tweet!
