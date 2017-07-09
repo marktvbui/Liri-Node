@@ -11,13 +11,9 @@ spotifyArray.push(spotifyList);
 var fs = require('fs');
 var request = require('request');
 var functionRequest = process.argv[2];
-// BONUS:
-// In addition to logging the data to your terminal/bash window, output the data to a .txt file called log.txt.
-// Make sure you append each command you run to the log.txt file.
-// Do not overwrite your file each time you run a command.
 
 function omdbAPI() {
-  if (functionRequest === 'movie-this') {
+  // if (functionRequest === 'movie-this') {
     var movieName = process.argv.slice(3).join('+');
     var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=40e9cece";
     request(queryUrl, function(error, response, body) {
@@ -37,11 +33,12 @@ function omdbAPI() {
         })
       }
     })
-  }
+  // }
 }
 function myTwitter() {
   // this function will grab and show your last 20 tweets and when they were created
   //https://api.twitter.com/1.1/users/search.json?q=markbui
+  var Twitter = require('twitter');
   if (functionRequest === 'my-tweets') {
 
   }
