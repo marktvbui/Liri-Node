@@ -28,7 +28,6 @@ function omdbAPI() {
 
 function myTwitter() {
   // this function will grab and show your last 20 tweets and when they were created
-  //https://api.twitter.com/1.1/users/search.json?q=markbui
   var Twitter = require('twitter');
   var keys = require('./keys.js');
   var keyList = keys.twitterKeys;
@@ -74,7 +73,7 @@ function mySpotify(passingSong) {
     if (err) {
       return console.log('Error occurred: ' + err);
     }
-      var songInfo = data.tracks.items[0];
+      var songInfo = data.tracks.items[4];
       var searchTerm = ('Searched for: ' + songName);
       var artist = ('Artist: ' + songInfo.artists[0].name);
       var title = ('Title: ' + songInfo.name);
@@ -100,6 +99,7 @@ function lastFunction() {
     mySpotify(passingSong);
   })
 }
+
 if (functionRequest === 'movie-this') {
   omdbAPI();
 }

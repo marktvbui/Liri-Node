@@ -199,4 +199,16 @@ Preview: https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?
 Artist: Taylor Swift
 Title: Bad Blood
 Album: 1989
-Preview: null
+Preview: nullSearched for: the sign
+Artist: Ace of Base
+Title: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=594ed4275dd4486096751f0763a13d7fSearched for: bad+blood
+Artist: Taylor Swift
+Title: Bad Blood
+Album: Bad Blood
+Preview: nullSearched for: "I Want it That Way"
+Artist: Glee Cast
+Title: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=594ed4275dd4486096751f0763a13d7f
