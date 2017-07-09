@@ -53,7 +53,7 @@ function myTwitter() {
   });
 }
 
-function mySpotify() {
+function mySpotify(passingSong) {
   // function will show artist, songs name, preview link of the song from spotify, album the song is from. if no song is provided, then will default to show 'the sign' by ace of base
   var secretKeys = require('./spotify.js');
   var spotifyList = secretKeys.spotifyKeys;
@@ -62,10 +62,14 @@ function mySpotify() {
     id: spotifyList.clientID,
     secret: spotifyList.clientSecret
   });
+
   var songName = process.argv.slice(3).join('+');
-  if (!songName) {
-    songName = 'The Sign';
-  }
+  if (passingSong) {
+    songName = passingSong;
+   } else if (!songName) {
+      songName = 'the sign';
+   }
+
   spotify.search({ type: 'track', query: songName, limit: 5 }, function(err, data) {
     if (err) {
       return console.log('Error occurred: ' + err);
@@ -86,7 +90,16 @@ function mySpotify() {
     })
   };
 
-
+function lastFunction() {
+  fs.readFile('random.txt', 'utf8', function(error, data) {
+    if (error) {
+      return console.log(error);
+    }
+    var randomTxt = data.split(',');
+    passingSong = randomTxt[1];
+    mySpotify(passingSong);
+  })
+}
 if (functionRequest === 'movie-this') {
   omdbAPI();
 }
@@ -95,6 +108,8 @@ else if (functionRequest === 'my-tweets'){
 }
 else if (functionRequest === 'spotify-this-song'){
   mySpotify();
+}else if (functionRequest === 'do-what-it-says') {
+  lastFunction();
 }
 
 
